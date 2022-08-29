@@ -20,12 +20,13 @@
   font-weight: 400;
   margin-left: var(--dl-space-space-twounits);
 }
-.navigation-links1-text2 {
+.navigation-links1-link {
   color: #ffffff;
   font-size: 2.5em;
   font-style: normal;
   font-weight: 400;
   margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
 }
 
 
@@ -37,8 +38,7 @@
 
 .navigation-links1-root-class-name10 {
   width: 100%;
-  height: 100%;
-  align-self: stretch;
+  align-self: center;
 }
 @media(max-width: 767px) {
   .navigation-links1-nav {
@@ -51,7 +51,7 @@
   .navigation-links1-text1 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links1-text2 {
+  .navigation-links1-link {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
