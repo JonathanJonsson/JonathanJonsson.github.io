@@ -84,15 +84,16 @@
   border-radius: var(--dl-radius-radius-round);
 }
 .home-banner {
-  width: 636px;
+  width: 25%;
+  height: 25%;
   display: flex;
   padding: var(--dl-space-space-unit);
   align-items: center;
-  border-color: #44577f;
+  border-color: #18233b;
   border-width: var(--dl-size-size-xsmall);
   flex-direction: column;
   justify-content: space-between;
-  background-color: #18233b;
+  background-color: #373f64;
 }
 .home-text01 {
   color: rgb(255, 255, 255);
@@ -118,14 +119,35 @@
 .home-link3:hover {
   transform: scale(1.02);
 }
-.home-banner1 {
+.home-container1 {
   width: 100%;
   display: flex;
-  padding: var(--dl-space-space-unit);
   align-items: center;
   flex-direction: column;
-  justify-content: space-between;
   background-color: #18233b;
+}
+.home-container2 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.home-banner1 {
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  max-width: 1400px;
+  align-items: center;
+  border-color: #373f64;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #373f64;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 .home-text14 {
   color: #ffffff;
@@ -140,16 +162,22 @@
   max-width: var(--dl-size-size-maxwidth);
   min-height: auto;
   align-items: center;
+  border-color: #373f64;
+  border-width: 5px;
   flex-direction: row;
   justify-content: space-between;
   background-color: #ffffff;
+  border-top-width: 5px;
+  border-left-width: var(--dl-size-size-xsmall);
+  border-right-width: var(--dl-size-size-xsmall);
+  border-bottom-width: 5px;
 }
 .home-image1 {
   width: 60%;
   height: 60%;
   object-fit: cover;
 }
-.home-container1 {
+.home-container3 {
   display: flex;
   align-self: center;
   margin-left: var(--dl-space-space-twounits);
@@ -222,9 +250,15 @@
   max-width: var(--dl-size-size-maxwidth);
   min-height: auto;
   align-items: center;
+  border-color: #373f64;
+  border-width: 1px;
   flex-direction: row;
   justify-content: space-between;
   background-color: #ffffff;
+  border-top-width: 5px;
+  border-left-width: var(--dl-size-size-xsmall);
+  border-right-width: var(--dl-size-size-xsmall);
+  border-bottom-width: 5px;
 }
 .home-image2 {
   width: 30%;
@@ -236,7 +270,7 @@
   height: 30%;
   object-fit: cover;
 }
-.home-container2 {
+.home-container4 {
   display: flex;
   margin-left: var(--dl-space-space-twounits);
   flex-direction: column;
@@ -284,9 +318,14 @@
   max-width: var(--dl-size-size-maxwidth);
   min-height: auto;
   align-items: center;
+  border-color: #373f64;
+  border-width: 5px;
   flex-direction: row;
   justify-content: space-between;
   background-color: #ffffff;
+  border-left-width: var(--dl-size-size-xsmall);
+  border-right-width: var(--dl-size-size-xsmall);
+  border-bottom-width: var(--dl-size-size-xsmall);
 }
 .home-image4 {
   width: 30%;
@@ -298,7 +337,7 @@
   height: 30%;
   object-fit: cover;
 }
-.home-container3 {
+.home-container5 {
   display: flex;
   margin-left: var(--dl-space-space-twounits);
   flex-direction: column;
@@ -406,7 +445,7 @@
   .home-image1 {
     order: 2;
   }
-  .home-container1 {
+  .home-container3 {
     align-items: center;
     margin-left: 0px;
     margin-right: 0px;
@@ -422,7 +461,7 @@
     padding: var(--dl-space-space-threeunits);
     flex-direction: column;
   }
-  .home-container2 {
+  .home-container4 {
     align-items: center;
     margin-left: 0px;
     margin-right: 0px;
@@ -438,7 +477,7 @@
     padding: var(--dl-space-space-threeunits);
     flex-direction: column;
   }
-  .home-container3 {
+  .home-container5 {
     align-items: center;
     margin-left: 0px;
     margin-right: 0px;
@@ -552,7 +591,7 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .home-container1 {
+  .home-container3 {
     margin-bottom: var(--dl-space-space-unit);
   }
   .home-hero2 {
@@ -561,7 +600,7 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .home-container2 {
+  .home-container4 {
     margin-bottom: var(--dl-space-space-unit);
   }
   .home-hero3 {
@@ -570,7 +609,7 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .home-container3 {
+  .home-container5 {
     margin-bottom: var(--dl-space-space-unit);
   }
   .home-footer {
