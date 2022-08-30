@@ -4,13 +4,17 @@
   overflow: auto;
   min-height: 100vh;
   align-items: center;
-  border-color: #18233b;
-  border-style: solid;
-  border-width: var(--dl-size-size-large);
   flex-direction: column;
   justify-content: flex-start;
+  background-color: #18233b;
+}
+.broken-strings-container1 {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
   background-color: #ffffff;
-  border-top-width: var(--dl-size-size-small);
 }
 .broken-strings-hero {
   height: 100%;
@@ -51,7 +55,7 @@
   max-height: 50%;
   object-fit: cover;
   background-size: cover;
-  background-image: url("public/playground_assets/stratscreen_nopress-400w.png");
+  background-image: url("public/playground_assets/stratscreen_nopress-200h.png");
 }
 .broken-strings-image1 {
   width: 50%;
@@ -101,7 +105,7 @@
   max-height: 50%;
   object-fit: cover;
   background-size: cover;
-  background-image: url("public/playground_assets/stratscreen_nopress-400w.png");
+  background-image: url("public/playground_assets/stratscreen_nopress-200h.png");
 }
 .broken-strings-image3 {
   width: 50%;
@@ -150,12 +154,13 @@
   display: flex;
   padding: 0px;
   max-width: auto;
+  align-self: center;
   min-height: auto;
   align-items: center;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 }
-.broken-strings-container1 {
+.broken-strings-container2 {
   display: flex;
   margin-left: 0px;
   flex-direction: column;
@@ -216,7 +221,7 @@
     padding: var(--dl-space-space-threeunits);
     flex-direction: column;
   }
-  .broken-strings-container1 {
+  .broken-strings-container2 {
     align-items: center;
     margin-left: 0px;
     margin-right: 0px;
@@ -236,11 +241,9 @@
   }
   .broken-strings-image {
     width: 80%;
-    min-width: 40%;
   }
   .broken-strings-image1 {
     width: 80%;
-    min-width: 40%;
   }
   .broken-strings-hero2 {
     padding-left: var(--dl-space-space-twounits);
@@ -302,7 +305,7 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .broken-strings-container1 {
+  .broken-strings-container2 {
     margin-bottom: var(--dl-space-space-unit);
   }
   .broken-strings-btn-group {
