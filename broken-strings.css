@@ -47,7 +47,7 @@
 }
 .broken-strings-image {
   flex: initial;
-  width: 25%;
+  width: auto;
   margin: var(--dl-space-space-unit);
   padding: 0px;
   max-width: 25%;
@@ -58,7 +58,7 @@
 }
 .broken-strings-image1 {
   width: auto;
-  height: 25%;
+  height: auto;
   margin: var(--dl-space-space-unit);
   padding: 0px;
   max-width: 25%;
@@ -97,7 +97,7 @@
 }
 .broken-strings-image2 {
   width: auto;
-  height: 25%;
+  height: auto;
   margin: var(--dl-space-space-unit);
   padding: 0px;
   max-width: 25%;
@@ -109,7 +109,7 @@
 }
 .broken-strings-image3 {
   width: auto;
-  height: 25%;
+  height: auto;
   margin: var(--dl-space-space-unit);
   padding: 0px;
   max-width: 25%;
