@@ -345,6 +345,10 @@
 .home-text61 {
   font-weight: 700;
 }
+.home-navlink1 {
+  width: 154px;
+  text-decoration: none;
+}
 .home-hero3 {
   width: 100%;
   display: flex;
@@ -422,6 +426,10 @@
   line-height: 1.5;
 }
 .home-link5 {
+  text-decoration: none;
+}
+.home-navlink2 {
+  width: 154px;
   text-decoration: none;
 }
 .home-footer {
