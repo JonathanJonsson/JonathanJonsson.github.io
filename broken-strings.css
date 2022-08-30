@@ -24,6 +24,10 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.broken-strings-text {
+  letter-spacing: 1em;
+  text-transform: uppercase;
+}
 .broken-strings-hero1 {
   width: 50%;
   height: 50%;
