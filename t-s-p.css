@@ -13,10 +13,12 @@
   border-top-width: 0px;
 }
 .t-s-p-container1 {
-  width: 50%;
+  width: auto;
   height: auto;
   display: flex;
   align-items: flex-start;
+  border-color: #18233b;
+  border-width: var(--dl-size-size-medium);
   flex-direction: column;
   background-color: #ffffff;
 }

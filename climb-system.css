@@ -10,9 +10,11 @@
 }
 .climb-system-container1 {
   flex: 0 0 auto;
-  width: 50%;
+  width: auto;
   display: flex;
   align-items: flex-start;
+  border-color: #18233b;
+  border-width: var(--dl-size-size-medium);
   flex-direction: column;
   background-color: #ffffff;
 }
