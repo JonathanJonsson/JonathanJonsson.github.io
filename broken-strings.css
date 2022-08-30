@@ -19,7 +19,7 @@
   background-color: #ffffff;
 }
 .broken-strings-hero {
-  height: 100%;
+  height: auto;
   margin: 0px;
   display: flex;
   padding: var(--dl-space-space-unit);
@@ -31,7 +31,6 @@
   justify-content: space-between;
 }
 .broken-strings-text {
-  letter-spacing: 1em;
   text-transform: uppercase;
 }
 .broken-strings-hero1 {

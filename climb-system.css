@@ -19,7 +19,8 @@
   background-color: #ffffff;
 }
 .climb-system-hero {
-  height: 100%;
+  width: auto;
+  height: auto;
   margin: 0px;
   display: flex;
   padding: var(--dl-space-space-unit);
@@ -28,11 +29,9 @@
   min-height: auto;
   align-items: center;
   flex-direction: row;
-  justify-content: space-between;
   background-color: #ffffff;
 }
 .climb-system-text {
-  letter-spacing: 1em;
   text-transform: uppercase;
 }
 .climb-system-hero1 {
