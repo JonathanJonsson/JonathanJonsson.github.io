@@ -33,12 +33,13 @@
   text-transform: uppercase;
 }
 .broken-strings-hero1 {
+  width: auto;
   height: auto;
   margin: 0px;
   display: flex;
   padding: var(--dl-space-space-unit);
-  position: relative;
   max-width: auto;
+  align-self: stretch;
   max-height: auto;
   min-height: auto;
   align-items: center;
@@ -46,12 +47,13 @@
   justify-content: center;
 }
 .broken-strings-image {
-  flex: initial;
   width: auto;
+  height: auto;
   margin: var(--dl-space-space-unit);
   padding: 0px;
   max-width: 25%;
   max-height: auto;
+  min-height: auto;
   object-fit: cover;
   background-size: cover;
   background-image: url("public/playground_assets/stratscreen_nopress-200h.png");
@@ -63,6 +65,7 @@
   padding: 0px;
   max-width: 25%;
   max-height: auto;
+  min-height: auto;
   object-fit: cover;
 }
 .broken-strings-hero2 {
@@ -235,8 +238,6 @@
     padding-right: var(--dl-space-space-twounits);
   }
   .broken-strings-hero1 {
-    min-width: 40%;
-    min-height: auto;
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
@@ -282,6 +283,14 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
+  .broken-strings-image {
+    max-width: var(--dl-size-size-maxwidth);
+    align-self: center;
+    min-height: auto;
+  }
+  .broken-strings-image1 {
+    max-width: var(--dl-size-size-maxwidth);
+  }
   .broken-strings-hero2 {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
@@ -293,6 +302,12 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
+  }
+  .broken-strings-image2 {
+    max-width: var(--dl-size-size-maxwidth);
+  }
+  .broken-strings-image3 {
+    max-width: var(--dl-size-size-maxwidth);
   }
   .broken-strings-hero4 {
     padding-top: var(--dl-space-space-twounits);

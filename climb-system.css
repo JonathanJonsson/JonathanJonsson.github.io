@@ -73,16 +73,17 @@
   object-fit: cover;
 }
 .climb-system-hero2 {
+  width: auto;
   height: auto;
   margin: 0px;
   display: flex;
   padding: var(--dl-space-space-unit);
-  max-width: 50%;
+  max-width: 75%;
   align-self: center;
   min-height: auto;
   align-items: center;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
   background-color: #ffffff;
 }
 .climb-system-text01 {
