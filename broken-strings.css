@@ -202,6 +202,12 @@
   .broken-strings-hero1 {
     flex-direction: column;
   }
+  .broken-strings-image {
+    max-width: var(--dl-size-size-maxwidth);
+  }
+  .broken-strings-image1 {
+    max-width: var(--dl-size-size-maxwidth);
+  }
   .broken-strings-hero2 {
     flex-direction: column;
   }
@@ -219,6 +225,12 @@
   }
   .broken-strings-hero3 {
     flex-direction: column;
+  }
+  .broken-strings-image2 {
+    max-width: var(--dl-size-size-maxwidth);
+  }
+  .broken-strings-image3 {
+    max-width: var(--dl-size-size-maxwidth);
   }
   .broken-strings-hero4 {
     flex-direction: column;
@@ -245,9 +257,11 @@
   }
   .broken-strings-image {
     width: 80%;
+    max-width: var(--dl-size-size-maxwidth);
   }
   .broken-strings-image1 {
     width: 80%;
+    max-width: var(--dl-size-size-maxwidth);
   }
   .broken-strings-hero2 {
     padding-left: var(--dl-space-space-twounits);
@@ -259,9 +273,11 @@
   }
   .broken-strings-image2 {
     width: 80%;
+    max-width: var(--dl-size-size-maxwidth);
   }
   .broken-strings-image3 {
     width: 80%;
+    max-width: var(--dl-size-size-maxwidth);
   }
   .broken-strings-hero4 {
     padding-left: var(--dl-space-space-twounits);

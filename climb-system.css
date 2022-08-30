@@ -183,11 +183,23 @@
   .climb-system-hero1 {
     flex-direction: column;
   }
+  .climb-system-image {
+    max-width: var(--dl-size-size-maxwidth);
+  }
+  .climb-system-image1 {
+    max-width: var(--dl-size-size-maxwidth);
+  }
   .climb-system-hero2 {
     flex-direction: column;
   }
   .climb-system-hero3 {
     flex-direction: column;
+  }
+  .climb-system-image2 {
+    max-width: var(--dl-size-size-maxwidth);
+  }
+  .climb-system-image3 {
+    max-width: var(--dl-size-size-maxwidth);
   }
   .climb-system-hero4 {
     padding: var(--dl-space-space-threeunits);
@@ -211,9 +223,11 @@
   }
   .climb-system-image {
     width: 80%;
+    max-width: var(--dl-size-size-maxwidth);
   }
   .climb-system-image1 {
     width: 80%;
+    max-width: var(--dl-size-size-maxwidth);
   }
   .climb-system-hero2 {
     padding-left: var(--dl-space-space-twounits);
@@ -225,9 +239,11 @@
   }
   .climb-system-image2 {
     width: 80%;
+    max-width: var(--dl-size-size-maxwidth);
   }
   .climb-system-image3 {
     width: 80%;
+    max-width: var(--dl-size-size-maxwidth);
   }
   .climb-system-hero4 {
     padding-left: var(--dl-space-space-twounits);
