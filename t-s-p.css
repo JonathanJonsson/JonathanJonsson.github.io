@@ -42,36 +42,35 @@
   display: flex;
   padding: var(--dl-space-space-unit);
   max-width: auto;
-  align-self: center;
+  align-self: stretch;
   max-height: auto;
   min-height: auto;
   align-items: center;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #ffffff;
 }
 .t-s-p-image {
-  width: 50%;
-  height: 50%;
+  width: auto;
+  height: auto;
   margin: var(--dl-space-space-unit);
   padding: 0px;
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 25%;
+  max-height: auto;
   object-fit: cover;
   background-size: cover;
   background-image: url("public/playground_assets/stratscreen_nopress-200h.png");
 }
 .t-s-p-image1 {
-  width: 50%;
-  height: 50%;
+  width: auto;
+  height: auto;
   margin: var(--dl-space-space-unit);
   padding: 0px;
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 25%;
+  max-height: auto;
   object-fit: cover;
 }
 .t-s-p-hero2 {
-  width: auto;
   height: auto;
   display: flex;
   padding: var(--dl-space-space-unit);
@@ -80,7 +79,7 @@
   min-height: auto;
   align-items: center;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #ffffff;
 }
 .t-s-p-text01 {
@@ -126,7 +125,7 @@
   display: flex;
   padding: var(--dl-space-space-unit);
   max-width: auto;
-  align-self: center;
+  align-self: stretch;
   max-height: auto;
   min-height: auto;
   align-items: center;
@@ -137,7 +136,7 @@
 .t-s-p-image2 {
   width: auto;
   padding: 0px;
-  max-width: auto;
+  max-width: 25%;
   min-width: auto;
   max-height: auto;
   object-fit: cover;

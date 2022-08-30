@@ -41,20 +41,20 @@
   display: flex;
   padding: var(--dl-space-space-unit);
   max-width: auto;
-  align-self: center;
+  align-self: stretch;
   max-height: auto;
   min-height: auto;
   align-items: center;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #ffffff;
 }
 .climb-system-image {
   width: auto;
   height: auto;
-  margin: 0px;
+  margin: var(--dl-space-space-unit);
   padding: 0px;
-  max-width: auto;
+  max-width: 15%;
   align-self: stretch;
   max-height: auto;
   object-fit: cover;
@@ -64,9 +64,9 @@
 .climb-system-image1 {
   width: auto;
   height: auto;
-  margin: 0px;
+  margin: var(--dl-space-space-unit);
   padding: 0px;
-  max-width: auto;
+  max-width: 15%;
   min-width: auto;
   align-self: stretch;
   max-height: auto;
@@ -83,7 +83,7 @@
   min-height: auto;
   align-items: center;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #ffffff;
 }
 .climb-system-text01 {
@@ -114,20 +114,20 @@
   display: flex;
   padding: var(--dl-space-space-unit);
   max-width: auto;
-  align-self: center;
+  align-self: stretch;
   max-height: auto;
   min-height: auto;
   align-items: center;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #ffffff;
 }
 .climb-system-image2 {
   width: auto;
   height: auto;
-  margin: 0px;
+  margin: var(--dl-space-space-unit);
   padding: 0px;
-  max-width: auto;
+  max-width: 15%;
   align-self: stretch;
   max-height: auto;
   object-fit: cover;
@@ -137,9 +137,9 @@
 .climb-system-image3 {
   width: auto;
   height: auto;
-  margin: 0px;
+  margin: var(--dl-space-space-unit);
   padding: 0px;
-  max-width: auto;
+  max-width: 15%;
   align-self: stretch;
   max-height: auto;
   object-fit: cover;
