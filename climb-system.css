@@ -53,7 +53,7 @@
   height: auto;
   margin: var(--dl-space-space-unit);
   padding: 0px;
-  max-width: 25%;
+  max-width: 15%;
   max-height: auto;
   min-height: auto;
   object-fit: cover;
@@ -65,7 +65,7 @@
   height: auto;
   margin: var(--dl-space-space-unit);
   padding: 0px;
-  max-width: 25%;
+  max-width: 15%;
   max-height: auto;
   min-height: auto;
   object-fit: cover;
@@ -124,7 +124,7 @@
   height: auto;
   margin: var(--dl-space-space-unit);
   padding: 0px;
-  max-width: 25%;
+  max-width: 15%;
   max-height: auto;
   min-height: auto;
   object-fit: cover;
@@ -136,7 +136,7 @@
   height: auto;
   margin: var(--dl-space-space-unit);
   padding: 0px;
-  max-width: 25%;
+  max-width: 15%;
   max-height: auto;
   min-height: auto;
   object-fit: cover;
