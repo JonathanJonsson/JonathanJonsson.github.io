@@ -47,7 +47,6 @@
   align-items: center;
   flex-direction: row;
   justify-content: center;
-  background-color: #ffffff;
 }
 .climb-system-image {
   width: auto;
@@ -55,8 +54,8 @@
   margin: var(--dl-space-space-unit);
   padding: 0px;
   max-width: 25%;
-  align-self: stretch;
   max-height: auto;
+  min-height: auto;
   object-fit: cover;
   background-size: cover;
   background-image: url("public/playground_assets/stratscreen_nopress-200h.png");
@@ -67,19 +66,17 @@
   margin: var(--dl-space-space-unit);
   padding: 0px;
   max-width: 25%;
-  min-width: auto;
-  align-self: stretch;
   max-height: auto;
+  min-height: auto;
   object-fit: cover;
 }
 .climb-system-hero2 {
-  width: auto;
   height: auto;
   margin: 0px;
   display: flex;
   padding: var(--dl-space-space-unit);
-  max-width: 75%;
-  align-self: center;
+  max-width: auto;
+  align-self: stretch;
   min-height: auto;
   align-items: center;
   flex-direction: row;
@@ -87,6 +84,7 @@
   background-color: #ffffff;
 }
 .climb-system-text01 {
+  width: 50%;
   text-align: left;
 }
 .climb-system-text03 {
@@ -120,7 +118,6 @@
   align-items: center;
   flex-direction: row;
   justify-content: center;
-  background-color: #ffffff;
 }
 .climb-system-image2 {
   width: auto;
@@ -128,8 +125,8 @@
   margin: var(--dl-space-space-unit);
   padding: 0px;
   max-width: 25%;
-  align-self: stretch;
   max-height: auto;
+  min-height: auto;
   object-fit: cover;
   background-size: cover;
   background-image: url("public/playground_assets/stratscreen_nopress-200h.png");
@@ -140,8 +137,8 @@
   margin: var(--dl-space-space-unit);
   padding: 0px;
   max-width: 25%;
-  align-self: stretch;
   max-height: auto;
+  min-height: auto;
   object-fit: cover;
 }
 .climb-system-hero4 {
@@ -209,18 +206,14 @@
     padding-right: var(--dl-space-space-twounits);
   }
   .climb-system-hero1 {
-    min-width: 40%;
-    min-height: auto;
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
   .climb-system-image {
     width: 80%;
-    min-width: 40%;
   }
   .climb-system-image1 {
     width: 80%;
-    min-width: 40%;
   }
   .climb-system-hero2 {
     padding-left: var(--dl-space-space-twounits);
@@ -254,6 +247,14 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
+  .climb-system-image {
+    max-width: var(--dl-size-size-maxwidth);
+    align-self: center;
+    min-height: auto;
+  }
+  .climb-system-image1 {
+    max-width: var(--dl-size-size-maxwidth);
+  }
   .climb-system-hero2 {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
@@ -265,6 +266,14 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
+  }
+  .climb-system-image2 {
+    max-width: var(--dl-size-size-maxwidth);
+    align-self: center;
+    min-height: auto;
+  }
+  .climb-system-image3 {
+    max-width: var(--dl-size-size-maxwidth);
   }
   .climb-system-hero4 {
     padding-top: var(--dl-space-space-twounits);

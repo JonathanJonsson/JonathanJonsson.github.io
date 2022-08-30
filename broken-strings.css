@@ -74,14 +74,15 @@
   margin: 0px;
   display: flex;
   padding: var(--dl-space-space-unit);
-  max-width: 50%;
-  align-self: center;
+  max-width: auto;
+  align-self: stretch;
   min-height: auto;
   align-items: center;
   flex-direction: row;
   justify-content: center;
 }
 .broken-strings-text01 {
+  width: 50%;
   text-align: left;
 }
 .broken-strings-hero3 {
@@ -126,14 +127,15 @@
   margin: 0px;
   display: flex;
   padding: var(--dl-space-space-unit);
-  max-width: 50%;
-  align-self: center;
+  max-width: auto;
+  align-self: stretch;
   min-height: auto;
   align-items: center;
   flex-direction: row;
   justify-content: center;
 }
 .broken-strings-text13 {
+  width: 50%;
   text-align: left;
 }
 .broken-strings-text15 {
