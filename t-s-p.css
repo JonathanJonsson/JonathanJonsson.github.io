@@ -4,13 +4,9 @@
   overflow: auto;
   min-height: 100vh;
   align-items: center;
-  border-color: #18233b;
-  border-style: solid;
-  border-width: 0px;
   flex-direction: column;
   justify-content: flex-start;
   background-color: #18233b;
-  border-top-width: 0px;
 }
 .t-s-p-container1 {
   width: auto;
@@ -245,6 +241,9 @@
   }
 }
 @media(max-width: 479px) {
+  .t-s-p-container {
+    border-width: var(--dl-size-size-small);
+  }
   .t-s-p-hero {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
@@ -274,6 +273,7 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
+    background-color: #ffffff;
   }
   .t-s-p-container2 {
     margin-bottom: var(--dl-space-space-unit);
