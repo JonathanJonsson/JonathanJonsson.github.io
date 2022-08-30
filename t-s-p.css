@@ -73,10 +73,9 @@
 .t-s-p-hero2 {
   width: auto;
   height: auto;
-  margin: 0px;
   display: flex;
   padding: var(--dl-space-space-unit);
-  max-width: auto;
+  max-width: 75%;
   align-self: center;
   min-height: auto;
   align-items: center;
