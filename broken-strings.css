@@ -71,7 +71,7 @@
   margin: 0px;
   display: flex;
   padding: var(--dl-space-space-unit);
-  max-width: 75%;
+  max-width: 50%;
   align-self: center;
   min-height: auto;
   align-items: center;
@@ -123,7 +123,7 @@
   margin: 0px;
   display: flex;
   padding: var(--dl-space-space-unit);
-  max-width: 75%;
+  max-width: 50%;
   align-self: center;
   min-height: auto;
   align-items: center;
