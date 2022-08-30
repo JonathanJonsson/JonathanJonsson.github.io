@@ -114,7 +114,7 @@
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
   text-decoration: none;
-  background-color: #ffffff;
+  background-color: #18233b;
 }
 .home-link3:hover {
   transform: scale(1.02);
@@ -192,9 +192,13 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-ul {
+  flex: initial;
   align-self: center;
   list-style-type: disc;
   list-style-position: outside;
+}
+.home-li {
+  line-height: 1.5;
 }
 .home-text19 {
   font-weight: 700;
@@ -205,10 +209,17 @@
 .home-text22 {
   font-weight: 700;
 }
+.home-li01 {
+  line-height: 1.5;
+}
+.home-li02 {
+  line-height: 1.5;
+}
 .home-text24 {
   font-weight: 700;
 }
 .home-li03 {
+  line-height: 1.5;
   list-style-type: circle;
   list-style-position: inside;
 }
@@ -216,6 +227,7 @@
   font-weight: 700;
 }
 .home-li04 {
+  line-height: 1.5;
   list-style-type: circle;
   list-style-position: inside;
 }
@@ -229,18 +241,25 @@
   font-weight: 700;
 }
 .home-li05 {
+  line-height: 1.5;
   list-style-type: circle;
   list-style-position: inside;
 }
 .home-li06 {
+  line-height: 1.5;
   list-style-type: circle;
   list-style-position: inside;
 }
 .home-li07 {
+  line-height: 1.5;
   list-style-type: circle;
   list-style-position: inside;
 }
 .home-link4 {
+  text-decoration: none;
+}
+.home-navlink {
+  width: 154px;
   text-decoration: none;
 }
 .home-hero2 {
@@ -287,14 +306,26 @@
   list-style-type: disc;
   list-style-position: outside;
 }
+.home-li08 {
+  line-height: 1.5;
+}
 .home-text41 {
   font-weight: 700;
 }
 .home-text43 {
   font-weight: 700;
 }
+.home-li09 {
+  line-height: 1.5;
+}
 .home-text46 {
   font-weight: 700;
+}
+.home-li10 {
+  line-height: 1.5;
+}
+.home-li11 {
+  line-height: 1.5;
 }
 .home-text52 {
   font-weight: 700;
@@ -307,6 +338,9 @@
 }
 .home-text58 {
   font-weight: 700;
+}
+.home-li12 {
+  line-height: 1.5;
 }
 .home-text61 {
   font-weight: 700;
@@ -354,6 +388,9 @@
   list-style-type: disc;
   list-style-position: outside;
 }
+.home-li13 {
+  line-height: 1.5;
+}
 .home-text66 {
   font-weight: 700;
 }
@@ -366,6 +403,9 @@
 .home-text72 {
   font-weight: 700;
 }
+.home-li14 {
+  line-height: 1.5;
+}
 .home-text76 {
   font-weight: 700;
 }
@@ -374,6 +414,15 @@
 }
 .home-text80 {
   font-weight: 700;
+}
+.home-li15 {
+  line-height: 1.5;
+}
+.home-li16 {
+  line-height: 1.5;
+}
+.home-link5 {
+  text-decoration: none;
 }
 .home-footer {
   width: 100%;
@@ -386,7 +435,7 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.home-text84 {
+.home-text86 {
   color: rgb(255, 255, 255);
 }
 .home-icon-group1 {
@@ -395,13 +444,13 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text89 {
+.home-text91 {
   color: rgb(255, 255, 255);
   width: 100%;
   height: 100%;
   padding-right: 0px;
 }
-.home-link5 {
+.home-link6 {
   display: contents;
 }
 .home-icon06 {
@@ -411,7 +460,7 @@
   margin-right: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
-.home-link6 {
+.home-link7 {
   display: contents;
 }
 .home-icon08 {
@@ -421,7 +470,7 @@
   margin-right: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
-.home-link7 {
+.home-link8 {
   display: contents;
 }
 .home-icon10 {
@@ -539,17 +588,17 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-text84 {
+  .home-text86 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
-  .home-text85 {
+  .home-text87 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
-  .home-text89 {
+  .home-text91 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
@@ -616,17 +665,17 @@
     padding: var(--dl-space-space-unit);
     flex-direction: column;
   }
-  .home-text84 {
+  .home-text86 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-text85 {
+  .home-text87 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-text89 {
+  .home-text91 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
