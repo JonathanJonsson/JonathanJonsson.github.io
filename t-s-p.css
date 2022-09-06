@@ -33,6 +33,7 @@
 }
 .t-s-p-text {
   align-self: center;
+  font-family: Oxygen;
   text-transform: uppercase;
 }
 .t-s-p-hero1 {
@@ -86,6 +87,7 @@
 .t-s-p-text01 {
   width: 50%;
   text-align: left;
+  font-family: Oxygen;
 }
 .t-s-p-text02 {
   font-weight: 700;
@@ -183,6 +185,7 @@
 .t-s-p-navlink {
   color: var(--dl-color-gray-white);
   transition: 0.3s;
+  font-family: Oxygen;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);
@@ -219,7 +222,6 @@
     max-width: var(--dl-size-size-maxwidth);
   }
   .t-s-p-image3 {
-    width: 80%;
     max-width: var(--dl-size-size-maxwidth);
   }
   .t-s-p-hero4 {

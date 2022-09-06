@@ -30,6 +30,7 @@
   justify-content: space-between;
 }
 .broken-strings-text {
+  font-family: Oxygen;
   text-transform: uppercase;
 }
 .broken-strings-hero1 {
@@ -84,6 +85,7 @@
 .broken-strings-text01 {
   width: 50%;
   text-align: left;
+  font-family: Oxygen;
 }
 .broken-strings-hero3 {
   width: auto;
@@ -137,6 +139,7 @@
 .broken-strings-text13 {
   width: 50%;
   text-align: left;
+  font-family: Oxygen;
 }
 .broken-strings-text15 {
   font-weight: 700;
@@ -181,6 +184,7 @@
 .broken-strings-navlink {
   color: var(--dl-color-gray-white);
   transition: 0.3s;
+  font-family: Oxygen;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);

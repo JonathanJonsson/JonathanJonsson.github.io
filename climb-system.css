@@ -32,6 +32,7 @@
   background-color: #ffffff;
 }
 .climb-system-text {
+  font-family: Oxygen;
   text-transform: uppercase;
 }
 .climb-system-hero1 {
@@ -53,7 +54,7 @@
   height: auto;
   margin: var(--dl-space-space-unit);
   padding: 0px;
-  max-width: 15%;
+  max-width: 25%;
   max-height: auto;
   min-height: auto;
   object-fit: cover;
@@ -65,7 +66,7 @@
   height: auto;
   margin: var(--dl-space-space-unit);
   padding: 0px;
-  max-width: 15%;
+  max-width: 25%;
   max-height: auto;
   min-height: auto;
   object-fit: cover;
@@ -86,6 +87,7 @@
 .climb-system-text01 {
   width: 50%;
   text-align: left;
+  font-family: Oxygen;
 }
 .climb-system-text03 {
   font-weight: 700;
@@ -124,7 +126,7 @@
   height: auto;
   margin: var(--dl-space-space-unit);
   padding: 0px;
-  max-width: 15%;
+  max-width: 25%;
   max-height: auto;
   min-height: auto;
   object-fit: cover;
@@ -136,7 +138,7 @@
   height: auto;
   margin: var(--dl-space-space-unit);
   padding: 0px;
-  max-width: 15%;
+  max-width: 25%;
   max-height: auto;
   min-height: auto;
   object-fit: cover;
@@ -166,6 +168,7 @@
 .climb-system-navlink {
   color: var(--dl-color-gray-white);
   transition: 0.3s;
+  font-family: Oxygen;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);
