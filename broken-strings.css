@@ -207,13 +207,18 @@
     flex-direction: column;
   }
   .broken-strings-image {
+    width: 80%;
     max-width: var(--dl-size-size-maxwidth);
   }
   .broken-strings-image1 {
+    width: 80%;
     max-width: var(--dl-size-size-maxwidth);
   }
   .broken-strings-hero2 {
     flex-direction: column;
+  }
+  .broken-strings-text01 {
+    width: 100%;
   }
   .broken-strings-text03 {
     font-weight: 700;
@@ -231,13 +236,18 @@
     flex-direction: column;
   }
   .broken-strings-image2 {
+    width: 80%;
     max-width: var(--dl-size-size-maxwidth);
   }
   .broken-strings-image3 {
+    width: 80%;
     max-width: var(--dl-size-size-maxwidth);
   }
   .broken-strings-hero4 {
     flex-direction: column;
+  }
+  .broken-strings-text13 {
+    width: 100%;
   }
   .broken-strings-hero5 {
     padding: var(--dl-space-space-threeunits);
@@ -260,27 +270,30 @@
     padding-right: var(--dl-space-space-twounits);
   }
   .broken-strings-image {
-    width: 80%;
+    width: 100%;
     max-width: var(--dl-size-size-maxwidth);
   }
   .broken-strings-image1 {
-    width: 80%;
+    width: 100%;
     max-width: var(--dl-size-size-maxwidth);
   }
   .broken-strings-hero2 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
+  .broken-strings-text01 {
+    width: 100%;
+  }
   .broken-strings-hero3 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
   .broken-strings-image2 {
-    width: 80%;
+    width: 100%;
     max-width: var(--dl-size-size-maxwidth);
   }
   .broken-strings-image3 {
-    width: 80%;
+    width: 100%;
     max-width: var(--dl-size-size-maxwidth);
   }
   .broken-strings-hero4 {
@@ -319,6 +332,9 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
+  .broken-strings-text01 {
+    width: 100%;
+  }
   .broken-strings-hero3 {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
@@ -336,6 +352,9 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
+  }
+  .broken-strings-text13 {
+    width: 100%;
   }
   .broken-strings-hero5 {
     padding-top: var(--dl-space-space-twounits);
