@@ -180,6 +180,9 @@
   transform: scale(1.02);
 }
 @media(max-width: 991px) {
+  .climb-system-container1 {
+    border-width: var(--dl-size-size-small);
+  }
   .climb-system-hero {
     flex-direction: column;
   }
@@ -223,6 +226,9 @@
   }
 }
 @media(max-width: 767px) {
+  .climb-system-container1 {
+    border-width: var(--dl-size-size-xsmall);
+  }
   .climb-system-hero {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -264,6 +270,9 @@
   }
 }
 @media(max-width: 479px) {
+  .climb-system-container1 {
+    border-width: var(--dl-size-size-xsmall);
+  }
   .climb-system-hero {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
